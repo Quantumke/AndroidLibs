@@ -15,11 +15,11 @@ public class MyIntro extends AppIntro {
 
     @Override
     public void init(Bundle savedInstanceState) {
-        addSlide(AppIntroFragment.newInstance("GIT APP", "THIS APP CLONES  MY GIT REPOS",
-                R.drawable.ic, Color.parseColor("#2196F3")));
+        addSlide(AppIntroFragment.newInstance("Pied Piper", "WELCOME TO PIED PIPER",
+                R.drawable.logo, Color.parseColor("#272730")));
 
-        setBarColor(Color.parseColor("#3F51B5"));
-        setSeparatorColor(Color.parseColor("#2196F3"));
+        setBarColor(Color.parseColor("#2E9E48"));
+        setSeparatorColor(Color.parseColor("#2E9E48"));
         showSkipButton(false);
 
         setVibrate(true);
@@ -40,6 +40,8 @@ public class MyIntro extends AppIntro {
     @Override
     public void onDonePressed() {
         Toast.makeText(getApplicationContext(),"You Done",Toast.LENGTH_SHORT).show();
+
+
     }
 
 }
