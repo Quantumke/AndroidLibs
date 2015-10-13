@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">MYApp</string>
     <string name="action_settings">Settings</string>
+    <string name="title">Title</string>
+    <string name="description">Title</string>
+    <string name="background_color">Title</string>
+    <string name="image">Title</string>
 </resources>
