@@ -22,8 +22,8 @@ public class MyIntro extends AppIntro {
         setSeparatorColor(Color.parseColor("#2E9E48"));
         showSkipButton(false);
 
-        setVibrate(true);
-        setVibrateIntensity(30);
+//        setVibrate(true);
+//        setVibrateIntensity(30);
     }
 
     private void loadMainActivity(){
@@ -33,13 +33,17 @@ public class MyIntro extends AppIntro {
 
     @Override
     public void onSkipPressed() {
-        Toast.makeText(getApplicationContext(),"You Skipped",Toast.LENGTH_SHORT).show();
+//        Toast.makeText(getApplicationContext(),"You Skipped",Toast.LENGTH_SHORT).show();
 
     }
 
     @Override
     public void onDonePressed() {
-        Toast.makeText(getApplicationContext(),"You Done",Toast.LENGTH_SHORT).show();
+//        Toast.makeText(getApplicationContext(),"You Done",Toast.LENGTH_SHORT).show();
+       Intent  l = new Intent(MyIntro.this, Login.class);
+        startActivity(l);
+        finish();
+
 
 
     }

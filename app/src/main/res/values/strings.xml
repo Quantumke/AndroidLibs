@@ -5,4 +5,6 @@
     <string name="description">Title</string>
     <string name="background_color">Title</string>
     <string name="image">Title</string>
+    <string name="username">Username..</string>
+    <string name="password">Password..</string>
 </resources>
