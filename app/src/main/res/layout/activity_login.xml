@@ -61,7 +61,8 @@
         android:id="@+id/reg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:layout_toLeftOf="@+id/more2"
+        android:layout_margin="5dp"
         rv_centered="true">
     <Button
 
@@ -77,6 +78,14 @@
     </com.andexert.library.RippleView>
 
 
+    <com.andexert.library.RippleView
+        android:id="@+id/forgot"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/more2"
+        android:layout_margin="5dp"
+        rv_centered="true"
+        android:layout_gravity="center_horizontal">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -86,14 +95,6 @@
         android:layout_marginTop="10dp"
         android:textColor="#ffffff"/>
 
-    <com.andexert.library.RippleView
-        android:id="@+id/forgot"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_toLeftOf="@+id/more2"
-        android:layout_margin="5dp"
-        rv_centered="true">
-
-    </com.andexert.library.RippleView>
+</com.andexert.library.RippleView>
 
 </LinearLayout>
