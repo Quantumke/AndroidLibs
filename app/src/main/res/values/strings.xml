@@ -7,4 +7,8 @@
     <string name="image">Title</string>
     <string name="username">Username..</string>
     <string name="password">Password..</string>
+    <string name="hintuSer">Enter Your Username..</string>
+    <string name="hintpassword">Enter Your Password...</string>
+    <string name="hintemail">Enter Your Email....</string>
+    <string name="hintregister">REGISTER</string>
 </resources>
