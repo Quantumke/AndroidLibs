@@ -34,11 +34,21 @@ public class Login extends Activity {
      Register.setOnClickListener(new View.OnClickListener() {
          @Override
          public void onClick(View v) {
-             Intent R=new Intent(Login.this,Register.class);
+             Intent R =new Intent(Login.this, Register.class);
              startActivity(R);
              finish();
          }
+
+
      });
+       Login.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               Intent m = new Intent(Login.this, MenuLinks.class);
+               startActivity(m);
+               finish();
+           }
+       });
     }
 
 

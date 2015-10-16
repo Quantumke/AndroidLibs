@@ -43,18 +43,18 @@
         android:layout_toLeftOf="@+id/more2"
         android:layout_margin="5dp"
         rv_centered="true">
-    <Button
+        <Button
 
 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Login"
-        android:id="@+id/login"
-        android:layout_gravity="center_horizontal"
-        android:background="#2E9E48"
-        android:textColor="#ffffff"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/login"
+            android:layout_gravity="center_horizontal"
+            android:background="#2E9E48"
+            android:textColor="#ffffff"/>
 
-</com.andexert.library.RippleView>
+    </com.andexert.library.RippleView>
 
 
     <com.andexert.library.RippleView
@@ -64,16 +64,16 @@
         android:layout_toLeftOf="@+id/more2"
         android:layout_margin="5dp"
         rv_centered="true">
-    <Button
+        <Button
 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Register"
-        android:id="@+id/register"
-        android:layout_gravity="center_horizontal"
-        android:background="#2E9E48"
-        android:layout_marginTop="10dp"
-        android:textColor="#fff"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:id="@+id/register"
+            android:layout_gravity="center_horizontal"
+            android:background="#2E9E48"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"/>
 
     </com.andexert.library.RippleView>
 
@@ -86,15 +86,15 @@
         android:layout_margin="5dp"
         rv_centered="true"
         android:layout_gravity="center_horizontal">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Forgot Password?"
-        android:id="@+id/forg"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="10dp"
-        android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:id="@+id/forg"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"/>
 
-</com.andexert.library.RippleView>
+    </com.andexert.library.RippleView>
 
 </LinearLayout>
