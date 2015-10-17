@@ -11,7 +11,7 @@
     <string name="hintpassword">Enter Your Password...</string>
     <string name="hintemail">Enter Your Email....</string>
     <string name="hintregister">REGISTER</string>
-    <string name="title_activity_menu_links">MenuLinks</string>
+    <string name="title_activity_menu_links">PiedPiper</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
