@@ -112,7 +112,7 @@
                         android:textSize="25sp" />
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="match_parent"mutedColor
                         android:layout_height="wrap_content"
                         android:text="@string/appBarLayout_card_desc"
                         android:textSize="18sp" />
