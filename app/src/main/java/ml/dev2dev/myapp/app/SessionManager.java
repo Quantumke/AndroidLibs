@@ -1,11 +1,10 @@
 package ml.dev2dev.myapp.app;
 
-/**
- * Created by benson on 10/21/15.
- */
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
+
+
 public class SessionManager {
     // Shared preferences file name
     private static final String PREF_NAME = "AndroidSources";

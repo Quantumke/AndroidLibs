@@ -6,8 +6,8 @@ package ml.dev2dev.myapp.app;
 
 
 public class AppConfig {
-	public static String URL_LOGIN = "http://seabanpr.co.ke/APILogin/";
+	public static String URL_LOGIN = "http://192.168.21.104/APILogin/";
 
 	// Server register url
-	public static String URL_REGISTER = "http://seabanpr.co.ke/APILogin/";
+	public static String URL_REGISTER = "http://192.168.21.104/APILogin/";
 }

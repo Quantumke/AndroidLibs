@@ -1,4 +1,5 @@
 package ml.dev2dev.myapp;
+
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,18 +17,22 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
+
+import ml.dev2dev.myapp.app.AppConfig;
+import ml.dev2dev.myapp.app.AppController;
+import ml.dev2dev.myapp.app.SessionManager;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import ml.dev2dev.myapp.app.AppConfig;
+import ml.dev2dev.myapp.Login;
 import ml.dev2dev.myapp.app.AppController;
-import ml.dev2dev.myapp.app.SessionManager;
 
 
-public class Register extends AppCompatActivity implements View.OnClickListener {
+public class Register  extends AppCompatActivity implements View.OnClickListener {
 
     TextView tvLogin;
     TextInputLayout fullName;
@@ -56,6 +61,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener 
         etEmailRegister = (EditText) findViewById(R.id.email_register);
         etPasswordRegister = (EditText) findViewById(R.id.password_register);
         tvLogin = (TextView) findViewById(R.id.tv_signin);
+
 
 
         tvLogin.setOnClickListener(this);
@@ -161,7 +167,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener 
         };
 
         // Adding request to request queue
-        AppController.getInstance().addToRequestQueue(strReq,tag_string_req);
+        AppController.getInstance().addToRequestQueue(strReq, tag_string_req);
     }
 
     private void showDialog() {
