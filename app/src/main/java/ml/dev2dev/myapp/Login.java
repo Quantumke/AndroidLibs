@@ -190,7 +190,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener{
                     checkLogin(email, password);
                 } else {
                     // show snackbar to enter credentials
-                    Snackbar.make(v, "Please enter the credentials!", Snackbar.LENGTH_LONG)
+                    Snackbar.make(v, "Please Fill all Details", Snackbar.LENGTH_LONG)
                             .show();
                 }
                 break;
