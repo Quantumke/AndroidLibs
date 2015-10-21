@@ -1,4 +1,4 @@
-package ml.dev2dev.myapp;
+package ml.dev2dev.myapp.app;
 
 /**
  * Created by benson on 10/21/15.

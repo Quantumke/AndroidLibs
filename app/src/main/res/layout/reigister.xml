@@ -1,54 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="#272730">
 
 
     <ImageView
-        android:layout_width="@android:dimen/thumbnail_height"
+        android:layout_width="@android:dimen/thumbnail_width"
         android:layout_height="@android:dimen/thumbnail_height"
         android:id="@+id/imageView2"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/logo"
         android:layout_marginTop="30dp" />
 
-    <EditText
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:ems="10"
-        android:id="@+id/useremail"
-        android:layout_gravity="center_horizontal"
-        android:hint="@string/hintemail"
-        android:layout_marginTop="10dp" />
+        android:id="@+id/edit_text_container"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:ems="10"
-        android:id="@+id/userpass"
-        android:layout_gravity="center_horizontal"
-        android:hint="@string/hintpassword"
-        android:layout_marginTop="10dp" />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/fullname_registerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/useruser"
-        android:layout_gravity="center_horizontal"
-        android:hint="@string/hintuSer"
-        android:layout_marginTop="10dp" />
+            <EditText
+                android:id="@+id/fullname_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textColorHint="#FFFFFF"
+                android:textColor="#FFFFFF" />
+
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/email_registerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/email_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"/>
+
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/password_registerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/password_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:singleLine="true"/>
+
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hintregister"
-        android:id="@+id/userregister"
-        android:layout_gravity="center_horizontal"
+        android:text="Register"
+        android:textSize="18sp"
+        android:id="@+id/register_button"
         android:background="#2E9E48"
-        android:textColor="#FFF"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account! Sign In"
+        android:id="@+id/tv_signin"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
 
 </LinearLayout>

@@ -1,9 +1,5 @@
-package ml.dev2dev.myapp;
+package ml.dev2dev.myapp.app;
 
-/**
- * Created by benson on 10/21/15.
- *
- */
 import android.app.Application;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -13,6 +9,11 @@ import android.text.TextUtils;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
+
+/**
+ * Created by benson on 10/21/15.
+ *
+ */
 public class AppController extends Application {
 
     public static final String TAG = AppController.class.getSimpleName();
@@ -73,5 +74,4 @@ public class AppController extends Application {
             mRequestQueue.cancelAll(tag);
         }
     }
-
 }
